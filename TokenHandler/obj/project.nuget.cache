@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "N5YlVBOegUVowzzlooxp7OFob1UhXV44ghM1mE1SwkBfkuS1XgE19QTSXu34WrwfJgwp0oIdIgYgj2UuOBg8zw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mbsme\\Development\\Boligmappa\\csharp-demo\\TokenHandler\\TokenHandler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mbsme\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\mbsme\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\mbsme\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\mbsme\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\mbsme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\mbsme\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
