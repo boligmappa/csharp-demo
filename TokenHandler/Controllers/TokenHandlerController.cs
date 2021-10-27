@@ -17,14 +17,14 @@ namespace TokenHandler.Controllers
         }
 
 
-        [HttpPost("getToken")]
+        [HttpPost]
         public StoredTokenObject GetStoredTokens(IdObject idObject)
         {
             var storedTokenObject = _databaseService.GetStoredTokens(idObject.userId);
             return storedTokenObject;
         }
 
-        [HttpPost("postToken")]
+        [HttpPut]
         public void SaveTokens(StoredTokenObject tokenObject)
         {
             Console.WriteLine("postToken");
