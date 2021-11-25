@@ -26,3 +26,6 @@ C:\Users\mbsme\Development\Boligmappa\csharp-demo\TokenHandler\obj\Debug\net5.0\
 C:\Users\mbsme\Development\Boligmappa\csharp-demo\TokenHandler\obj\Debug\net5.0\ref\TokenHandler.dll
 C:\Users\mbsme\Development\Boligmappa\csharp-demo\TokenHandler\obj\Debug\net5.0\TokenHandler.pdb
 C:\Users\mbsme\Development\Boligmappa\csharp-demo\TokenHandler\obj\Debug\net5.0\TokenHandler.genruntimeconfig.cache
+C:\Users\mbsme\Development\Boligmappa\csharp-demo\TokenHandler\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+C:\Users\mbsme\Development\Boligmappa\csharp-demo\TokenHandler\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\mbsme\Development\Boligmappa\csharp-demo\TokenHandler\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll

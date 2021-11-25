@@ -1,6 +1,6 @@
 namespace TokenHandler.Entities
 {
-    public record IdObject
+    public record IdObjectModel
     {
         public string userId { get; init; }
     }
