@@ -20,7 +20,7 @@ namespace TokenHandler.Services
             urlParameters.Add(new KeyValuePair<string, string>("scope", authCodeObject.scope));
             urlParameters.Add(new KeyValuePair<string, string>("code", authCodeObject.authCode));
             urlParameters.Add(new KeyValuePair<string, string>("code_verifier", authCodeObject.codeVerifier));
-            urlParameters.Add(new KeyValuePair<string, string>("redirect_uri", "http://localhost:8080/boligmappa-redirect"));
+            urlParameters.Add(new KeyValuePair<string, string>("redirect_uri", authCodeObject.redirectUrl));
 
             var request = new HttpRequestMessage(HttpMethod.Post, "https://testauth.boligmappa.no/auth/realms/professional-realm-staging/protocol/openid-connect/token") { Content = new FormUrlEncodedContent(urlParameters) }; //The Url here should not be hard coded and depend on if the environment is prod or dev
 
