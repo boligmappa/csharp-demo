@@ -29,7 +29,6 @@ namespace TokenHandler.Services
             Console.WriteLine(res.Content.ToString());
 
             var tokenResponse = await res.Content.ReadAsAsync<TokenResponseModel>();
-            Console.WriteLine(tokenResponse);
 
             return tokenResponse;
 

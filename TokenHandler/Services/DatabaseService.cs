@@ -24,7 +24,6 @@ namespace TokenHandler.Services
             {
                 storedItems.Remove(itemToBeRemoved);
             }
-            Console.WriteLine(itemToBeStored);
             storedItems.Add(itemToBeStored);
             Console.WriteLine(storedItems.Count);
         }

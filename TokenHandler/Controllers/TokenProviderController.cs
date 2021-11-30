@@ -24,13 +24,26 @@ namespace TokenHandler.Controllers
         [Route("Retrieve")]
         public async Task<AccessTokenModel> GetStoredTokens(IdObjectModel idObject)
         {
+
+            Console.WriteLine(idObject);
+
             var storedTokenObject = await _databaseService.GetStoredTokens(idObject.userId);
 
+            Console.WriteLine(storedTokenObject);
+
+            var accessTokenString = "";
+
+
+            if (storedTokenObject != null)
+            {
+                accessTokenString = storedTokenObject.accessToken;
+            }
 
             var accessToken = new AccessTokenModel()
             {
-                accessToken = storedTokenObject.accessToken
+                accessToken = accessTokenString
             };
+
             return accessToken;
         }
 
