@@ -13,7 +13,7 @@
       "request": "launch",
       "preLaunchTask": "build",
       // If you have changed target frameworks, make sure to update the program path.
-      "program": "${workspaceFolder}/TokenHandler/bin/Debug/net5.0/TokenHandler.dll",
+      "program": "${workspaceFolder}/TokenHandler/bin/Debug/net6.0/TokenHandler.dll",
       "args": [],
       "cwd": "${workspaceFolder}/TokenHandler",
       "stopAtEntry": false,
